@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .map-3d-mode .leaflet-container {
+    transform: perspective(1000px) rotateX(45deg);
+    transform-origin: bottom center;
+    height: 150% !important;
+    margin-top: -25%;
+  }
+  
+  .leaflet-container {
+    transition: transform 1s ease-in-out, height 1s ease-in-out, margin-top 1s ease-in-out;
+  }
+}

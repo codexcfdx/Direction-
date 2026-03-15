@@ -1,0 +1,5 @@
+{
+  "name": "Direction Map",
+  "description": "A direction map app using Leaflet and OpenStreetMap for routing.",
+  "requestFramePermissions": ["geolocation"]
+}
